@@ -2,7 +2,7 @@ Code used in making the undergraduate thesis "Solving Montezuma's Revenge with
 Planning and Reinforcement Learning".
 
 - `examine_game`: scripts for examining the memory and testing the options.
-- `planning`: the implementation of IW(3) on position, based on [Lipovetzky,
+- `IW`: the implementation of IW(3) on position, based on [Lipovetzky,
 	Ramirez and Geffner's](https://github.com/miquelramirez/ALE-Atari-Width).
 - `learning`: the implementation of Sarsa for the learning results.
 - `Arcade-Learning-Environment`: slightly modified ALE, notably with added
