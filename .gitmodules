@@ -7,3 +7,6 @@
 [submodule "ALE-MR-modified"]
 	path = ALE-montezuma-modified
 	url = https://github.com/rhaps0dy/ALE-montezuma-modified.git
+[submodule "hexq"]
+	path = hexq
+	url = https://github.com/rhaps0dy/hexq.git
