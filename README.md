@@ -5,8 +5,9 @@ Planning and Reinforcement Learning".
 - `IW`: the implementation of IW(3) on position, based on [Lipovetzky,
 	Ramirez and Geffner's](https://github.com/miquelramirez/ALE-Atari-Width).
 - `learning`: the implementation of Sarsa for the learning results.
-- `Arcade-Learning-Environment`: slightly modified ALE, notably with added
+- `ALE-montezuma-modified`: slightly modified ALE, notably with added
 	rewards to MR and some methods and attributes made public.
+- `report-TFG`: the thesis report, in LaTeX.
 
 # License
 Almost all the code here uses the [Arcade Learning

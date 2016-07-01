@@ -1,3 +1,9 @@
 [submodule "IW"]
 	path = IW
 	url = https://github.com/rhaps0dy/IW.git
+[submodule "report-TFG"]
+	path = report-TFG
+	url = https://github.com/rhaps0dy/report-TFG.git
+[submodule "ALE-montezuma-modified"]
+	path = ALE-montezuma-modified
+	url = https://github.com/rhaps0dy/ALE-montezuma-modified.git
