@@ -1,5 +1,5 @@
 #include <ale_interface.hpp>
-#include<emucore/M6502/src/System.hxx>
+#include<emucore/m6502/src/System.hxx>
 #include <SDL/SDL_events.h>
 #include <SDL/SDL_keysym.h>
 #include <SDL/SDL_keysym.h>
@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 	ale.setBool("sound", false);
 	ale.setInt("fragsize", 64);
 // TFG_DIR is defined in the Makefile
-	ale.loadROM(TFG_DIR "/montezuma_revenge.bin");
+	ale.loadROM(TFG_DIR "/private_eye.bin");
 
 	System &sys = ale.theOSystem->console().system();
 	ActionVect legal_actions = ale.getLegalActionSet();

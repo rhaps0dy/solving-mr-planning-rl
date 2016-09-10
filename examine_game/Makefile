@@ -1,7 +1,7 @@
 USE_SDL := 1
 
 # This will likely need to be changed to suit your installation.
-ALE := $(HOME)/Programacio/Arcade-Learning-Environment
+ALE := $(CURDIR)/../ALE-montezuma-modified
 
 FLAGS := -g --std=c++11 -I$(ALE)/src -I$(ALE)/src/controllers -I$(ALE)/src/os_dependent -I$(ALE)/src/environment -I$(ALE)/src/external -L$(ALE) -DTFG_DIR="\"$(HOME)/Dropbox/TFG\""
 CXX := g++

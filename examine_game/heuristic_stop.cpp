@@ -1,5 +1,5 @@
 #include <ale_interface.hpp>
-#include<emucore/M6502/src/System.hxx>
+#include<emucore/m6502/src/System.hxx>
 #include <SDL/SDL_events.h>
 #include <SDL/SDL_keysym.h>
 #include <SDL/SDL_keysym.h>
