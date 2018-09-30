@@ -30,5 +30,8 @@ memory_record: memory_record.cpp
 heuristic_stop: heuristic_stop.cpp
 	$(CXX) $(DEFINES) $(FLAGS) heuristic_stop.cpp $(LDFLAGS) -o heuristic_stop
 
+correlation: correlation.cpp
+	$(CXX) $(DEFINES) $(FLAGS) correlation.cpp $(LDFLAGS) -lncurses -o correlation
+
 clean:
 	rm -rf memory_record heuristic_stop *.o
